@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block title %}Edit{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <h3 class="text-center p-3 d-flex justify-content-center">Contact details......</h3><br><br>
+    <div class="d-flex justify-content-center">
+        <img class="img-fluid rounded" src="https://imgs.search.brave.com/MV09IXkjP70GlQsZWLyXsupmPama5p0PNbodFhRNY_U/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5w/NWFlcFpoOE9wYnBE/RThZbG1WdFdnSGFI/YSZwaWQ9QXBp" alt="user image" style="height:100px;width: 100px">
+    </div>
+    <h5 class="text-center mt-3">{{ contact.name }}</h5>
+    <h5 class="d-flex justify-content-center mt-3">{{ contact.phone_number }}</h5>
+</div>
+{% endblock %}
